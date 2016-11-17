@@ -73,3 +73,8 @@ function c2f(celsius){
 f2c();
 
 c2f();
+
+function f2c(far){
+	var output = (far - 32) / 1.8;
+	console.log(output);
+}
