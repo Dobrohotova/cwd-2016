@@ -134,31 +134,36 @@ m2k();
 
 
 
-function l2g(litters){
+function l2guk(litters){
 	var output = litters / 3.785411784;
 	console.log(output);
 }
 
-function g2l(gallons){
+function g2luk(gallons){
 	var output = gallons * 3.785411784;
 	console.log(output);
 }
 
 
-function l2g(litters){
+function l2gus(litters){
 	var output = litters / 4.54609;
 	console.log(output);
 }
 
-function g2l(gallons){
+function g2lus(gallons){
 	var output = gallons * 4.54609;
 	console.log(output);
 }
 
 
-g2l();
+g2luk();
 
-l2g();
+l2guk();
+
+
+g2lus();
+
+l2gus();
 
 
 
